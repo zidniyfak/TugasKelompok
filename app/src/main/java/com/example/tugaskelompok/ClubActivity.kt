@@ -19,6 +19,9 @@ class ClubActivity : AppCompatActivity() {
             imgClub.setImageResource(R.drawable.psg)
         }else if(intent.getStringExtra("Data") == "Barcelona"){
             imgClub.setImageResource(R.drawable.barcelona)
+        }else if(intent.getStringExtra("Data") == "Real Madrid"){
+            imgClub.setImageResource(R.drawable.real_madrid)}
+
         clubTextView.setText(intent.getStringExtra("Data"))
     }
 }
