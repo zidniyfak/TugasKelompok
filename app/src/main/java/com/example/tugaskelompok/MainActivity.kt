@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val club = arrayOf("Juventus", "Milan","Inter Milan", "PSG", "Manchester City", "Manchester United", "Liverpol", "Barcelona", "Real Madrid")
+        val club = arrayOf("Juventus", "Milan","Inter Milan", "PSG", "Manchester City", "Manchester United", "Liverpool", "Barcelona", "Real Madrid")
 
         val adapter = ArrayAdapter (this, android.R.layout.simple_list_item_1 ,club)
         val listClub : ListView = findViewById(R.id.listClub)

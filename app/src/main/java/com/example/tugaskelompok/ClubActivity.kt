@@ -20,7 +20,18 @@ class ClubActivity : AppCompatActivity() {
         }else if(intent.getStringExtra("Data") == "Barcelona"){
             imgClub.setImageResource(R.drawable.barcelona)
         }else if(intent.getStringExtra("Data") == "Real Madrid"){
-            imgClub.setImageResource(R.drawable.real_madrid)}
+            imgClub.setImageResource(R.drawable.real_madrid)
+        }else if(intent.getStringExtra("Data") == "Milan"){
+            imgClub.setImageResource(R.drawable.ac_milan)
+        }else if(intent.getStringExtra("Data") == "Inter Milan"){
+            imgClub.setImageResource(R.drawable.inter_milan)
+        }else if(intent.getStringExtra("Data") == "Manchester United"){
+            imgClub.setImageResource(R.drawable.manchester_united)
+        }else if(intent.getStringExtra("Data") == "Manchester City"){
+            imgClub.setImageResource(R.drawable.manchester_city)
+        }else if(intent.getStringExtra("Data") == "Liverpool"){
+            imgClub.setImageResource(R.drawable.liverpool)}
+
 
         clubTextView.setText(intent.getStringExtra("Data"))
     }
