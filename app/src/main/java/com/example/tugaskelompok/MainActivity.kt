@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         listClub.setOnItemClickListener { parent, view, position, id ->
             val element = listClub.getItemAtPosition(position)
+
             Log.d("Log Tag",element.toString())
 
             val intent = Intent(this,ClubActivity::class.java)
